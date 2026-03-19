@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rental & Leasing - Association Forms</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #1e2a44;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .breadcrumb {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #d32f2f;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .back-btn:hover { background: #b71c1c; }
+    .main-container {
+      display: flex;
+      max-width: 1200px;
+      margin: 40px auto;
+      gap: 40px;
+      padding: 0 20px;
+    }
+    aside {
+      width: 280px;
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 20px;
+      height: fit-content;
+    }
+    aside h3 {
+      margin-top: 0;
+      color: #1e2a44;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+    aside ul {
+      list-style: none;
+      padding: 0;
+    }
+    aside li {
+      margin: 12px 0;
+    }
+    aside a {
+      color: #1e2a44;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    aside a:hover { color: #d32f2f; }
+    .content {
+      flex: 1;
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .section {
+      margin-bottom: 50px;
+    }
+    .section h2 {
+      color: #1e2a44;
+      border-bottom: 3px solid #d32f2f;
+      padding-bottom: 12px;
+      margin-bottom: 24px;
+      font-size: 1.8em;
+    }
+    .form-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .form-item {
+      background: #f0f4f8;
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: all 0.2s ease;
+    }
+    .form-item:hover {
+      background: #e3f2fd;
+      transform: translateY(-2px);
+    }
+    .form-item::before {
+      content: "📄";
+      font-size: 2.2em;
+    }
+    .form-item a {
+      color: #1e2a44;
+      text-decoration: none;
+      font-weight: 500;
+      flex: 1;
+    }
+    .form-item a:hover { color: #d32f2f; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #1e2a44;
+      color: white;
+      font-size: 14px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="breadcrumb">Home / Association Forms / Rental & Leasing</div>
+    <h1>Rental & Leasing</h1>
+    <a href="forms-landing.html" class="back-btn">← Back to All Forms</a>
+  </header>
+
+  <div class="main-container">
+    <aside>
+      <h3>Jump to Section</h3>
+      <ul>
+        <li><a href="#lease-agreements">Lease Agreements & Representation</a></li>
+        <li><a href="#leasing-transactions">Leasing Transactions</a></li>
+        <li><a href="#operational">Operational / Data</a></li>
+      </ul>
+    </aside>
+
+    <div class="content">
+
+      <div class="section" id="lease-agreements">
+        <h2>Lease Agreements & Representation</h2>
+        <div class="form-list">
+          <div class="form-item"><a href="forms/Exclusive-Right-to-Lease-Residential.pdf">Exclusive Right to Lease (Residential)</a></div>
+          <div class="form-item"><a href="forms/Exclusive-Right-to-Represent-Tenant-Oct-2024.pdf">Exclusive Right to Represent Tenant (Revised Oct 2024)</a></div>
+        </div>
+      </div>
+
+      <div class="section" id="leasing-transactions">
+        <h2>Leasing Transactions</h2>
+        <div class="form-list">
+          <div class="form-item"><a href="forms/Proposal-to-Lease-Residential.pdf">Proposal to Lease (Residential)</a></div>
+          <div class="form-item"><a href="forms/Rental-Application.pdf">Rental Application</a></div>
+        </div>
+      </div>
+
+      <div class="section" id="operational">
+        <h2>Operational / Data</h2>
+        <div class="form-list">
+          <div class="form-item"><a href="forms/Rental-Residential-Worksheet-Data-Correction.pdf">Rental Residential Worksheet / Data Correction Form</a></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    Member-only access • Forms provided by Ohio REALTORS® • For questions, contact your association
+  </footer>
+
+</body>
+</html>

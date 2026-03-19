@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Association Forms</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      color: #2c3e50;
+    }
+    header {
+      background-color: #1e2a44;
+      color: white;
+      padding: 60px 20px 30px;
+      text-align: center;
+    }
+    .breadcrumb {
+      font-size: 15px;
+      margin-bottom: 15px;
+      opacity: 0.9;
+    }
+    h1 {
+      margin: 0;
+      font-size: 3.2em;
+      font-weight: 700;
+    }
+    .search-container {
+      max-width: 720px;
+      margin: 40px auto 0;
+    }
+    .search-bar {
+      display: flex;
+      background: white;
+      border-radius: 50px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+      overflow: hidden;
+    }
+    .search-bar input {
+      flex: 1;
+      border: none;
+      padding: 20px 30px;
+      font-size: 18px;
+    }
+    .search-bar input:focus {
+      outline: none;
+    }
+    .search-bar button {
+      background: #d32f2f;
+      color: white;
+      border: none;
+      padding: 0 45px;
+      font-size: 22px;
+      cursor: pointer;
+      transition: background 0.25s;
+    }
+    .search-bar button:hover {
+      background: #b71c1c;
+    }
+    .container {
+      max-width: 1280px;
+      margin: 60px auto;
+      padding: 0 30px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 35px;
+    }
+    .card {
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .card:hover {
+      transform: translateY(-12px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+    }
+    .card-icon {
+      background: #e3f2fd;
+      padding: 50px 20px;
+      text-align: center;
+      font-size: 6em;
+    }
+    .card-content {
+      padding: 28px;
+    }
+    .card h2 {
+      margin: 0 0 14px;
+      font-size: 1.7em;
+      color: #1e2a44;
+    }
+    .card p {
+      margin: 0;
+      color: #555;
+      line-height: 1.6;
+      font-size: 1em;
+    }
+    .arrow {
+      float: right;
+      font-size: 2.5em;
+      color: #d32f2f;
+      margin-top: 8px;
+    }
+    @media (max-width: 950px) {
+      h1 { font-size: 2.6em; }
+      .card-icon { font-size: 5em; padding: 40px 15px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="breadcrumb">Home / Association Forms</div>
+    <h1>Association Forms</h1>
+  </header>
+
+  <div class="search-container">
+    <div class="search-bar">
+      <input type="text" placeholder="Search forms" />
+      <button>→</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid">
+
+      <a href="residential-transactions.html" class="card">
+        <div class="card-icon">🏠</div>
+        <div class="card-content">
+          <h2>Residential Transactions</h2>
+          <p>Exclusive right to sell listings, purchase contracts (annotated, Spanish, land/lot), buyer representation, transaction management, inspections/contingencies, termination/release, disclosures, addenda, and residential resources/checklists.</p>
+          <span class="arrow">→</span>
+        </div>
+      </a>
+
+      <a href="commercial-transactions.html" class="card">
+        <div class="card-icon">🏢</div>
+        <div class="card-content">
+          <h2>Commercial Transactions</h2>
+          <p>Commercial purchase contracts & listing agreements, standard clauses (March 2026), representation & referral agreements, transaction addenda/counter offers, leasing forms, termination, and commercial checklists.</p>
+          <span class="arrow">→</span>
+        </div>
+      </a>
+
+      <a href="rental-leasing.html" class="card">
+        <div class="card-icon">🔑🏡</div>
+        <div class="card-content">
+          <h2>Rental & Leasing</h2>
+          <p>Exclusive right to lease/represent tenant agreements, residential proposal to lease, rental applications, worksheets, and data correction forms for residential leasing transactions.</p>
+          <span class="arrow">→</span>
+        </div>
+      </a>
+
+      <a href="specialty-transactions.html" class="card">
+        <div class="card-icon">🤝📄</div>
+        <div class="card-content">
+          <h2>Specialty Transactions</h2>
+          <p>Short sale/foreclosure forms (addenda, notices, authorizations), new construction (buyer registration, compensation agreements, exclusive representation), resources like short sale understanding, new build checklists, and to-be-built images.</p>
+          <span class="arrow">→</span>
+        </div>
+      </a>
+
+      <a href="required-disclosures.html" class="card">
+        <div class="card-icon">✅📜</div>
+        <div class="card-content">
+          <h2>Required Disclosures (Ohio Law)</h2>
+          <p>Mandatory Ohio disclosures (agency, lead-based paint, residential property & exemption, waiver of duties, anti-discrimination), brochures, and related compliance notices.</p>
+          <span class="arrow">→</span>
+        </div>
+      </a>
+
+      <a href="resources-access-admin.html" class="card">
+        <div class="card-icon">🔧📚</div>
+        <div class="card-content">
+          <h2>Resources, Access & Admin</h2>
+          <p>Legal references (Title 53, Ohio REALTORS® forms), keybox & access policies/rules (eKey, lockbox, reporting, complaints), governance (forms committee), and MLS-related agreements (broker participant, subscriber).</p>
+          <span class="arrow">→</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+</body>
+</html>

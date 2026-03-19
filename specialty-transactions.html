@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Specialty Transactions - Association Forms</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #1e2a44;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .breadcrumb {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #d32f2f;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .back-btn:hover { background: #b71c1c; }
+    .main-container {
+      display: flex;
+      max-width: 1200px;
+      margin: 40px auto;
+      gap: 40px;
+      padding: 0 20px;
+    }
+    aside {
+      width: 280px;
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 20px;
+      height: fit-content;
+    }
+    aside h3 {
+      margin-top: 0;
+      color: #1e2a44;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+    aside ul {
+      list-style: none;
+      padding: 0;
+    }
+    aside li {
+      margin: 12px 0;
+    }
+    aside a {
+      color: #1e2a44;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    aside a:hover { color: #d32f2f; }
+    .content {
+      flex: 1;
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .section {
+      margin-bottom: 50px;
+    }
+    .section h2 {
+      color: #1e2a44;
+      border-bottom: 3px solid #d32f2f;
+      padding-bottom: 12px;
+      margin-bottom: 24px;
+      font-size: 1.8em;
+    }
+    .form-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .form-item {
+      background: #f0f4f8;
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: all 0.2s ease;
+    }
+    .form-item:hover {
+      background: #e3f2fd;
+      transform: translateY(-2px);
+    }
+    .form-item::before {
+      content: "📄";
+      font-size: 2.2em;
+    }
+    .form-item a {
+      color: #1e2a44;
+      text-decoration: none;
+      font-weight: 500;
+      flex: 1;
+    }
+    .form-item a:hover { color: #d32f2f; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #1e2a44;
+      color: white;
+      font-size: 14px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="breadcrumb">Home / Association Forms / Specialty Transactions</div>
+    <h1>Specialty Transactions</h1>
+    <a href="forms-landing.html" class="back-btn">← Back to All Forms</a>
+  </header>
+
+  <div class="main-container">
+    <aside>
+      <h3>Jump to Section</h3>
+      <ul>
+        <li><a href="#short-sale">Short Sale / Foreclosure</a></li>
+        <li><a href="#new-construction">New Construction</a></li>
+        <li><a href="#resources">Resources & Reference (Specialty)</a></li>
+        <li><a href="#move-to-mls">Move to MLS (Still Listed for Now)</a></li>
+      </ul>
+    </aside>
+
+    <div class="content">
+
+      <div class="section" id="short-sale">
+        <h2>Short Sale / Foreclosure</h2>
+        <div class="form-list">
+          <div class="form-item"><a href="forms/Notice-of-Short-Sale-Termination.pdf">Notice of Short Sale Termination</a></div>
+          <div class="form-item"><a href="forms/Short-Sale-Foreclosure-Seller-Authorization.pdf">Short Sale / Foreclosure – Seller Authorization for Release of Info</a></div>
+          <div class="form-item"><a href="forms/Short-Sale-Addendum-Listing-Agreement.pdf">Short Sale Addendum to Listing Agreement</a></div>
+          <div class="form-item"><a href="forms/Short-Sale-Addendum-Purchase-Contract.pdf">Short Sale Addendum to Purchase Contract</a></div>
+        </div>
+      </div>
+
+      <div class="section" id="new-construction">
+        <h2>New Construction</h2>
+        <div class="form-list">
+          <div class="form-item"><a href="forms/Buyer-Registration-Form-New-Construction.pdf">Buyer Registration Form (New Construction)</a></div>
+          <div class="form-item"><a href="forms/Buyer-Broker-Compensation-Agreement-New.pdf">Buyer Broker Compensation Agreement</a></div>
+          <div class="form-item"><a href="forms/Exclusive-Right-to-Represent-Buyer-New.pdf">Exclusive Right to Represent Buyer</a></div>
+        </div>
+      </div>
+
+      <div class="section" id="resources">
+        <h2>Resources & Reference (Specialty)</h2>
+        <div class="form-list">
+          <div class="form-item"><a href="forms/Understanding-Short-Sales.pdf">Understanding Short Sales</a></div>
+        </div>
+      </div>
+
+      <div class="section" id="move-to-mls">
+        <h2>Move to MLS (Still Listed for Now)</h2>
+        <div class="form-list">
+          <div class="form-item"><a href="forms/New-Build-Best-Practices-Checklist.pdf">New Build Best Practices Checklist</a></div>
+          <div class="form-item"><a href="forms/To-Be-Built-Condo-Standard-Image.pdf">To Be Built Condo Standard Image</a></div>
+          <div class="form-item"><a href="forms/To-Be-Built-Single-Family-Standard-Image.pdf">To Be Built Single Family Standard Image</a></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    Member-only access • Forms provided by Ohio REALTORS® • For questions, contact your association
+  </footer>
+
+</body>
+</html>
